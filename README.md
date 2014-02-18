@@ -1,4 +1,4 @@
-plantsmap_live
+Plants Map live site
 ==============
 
-plantsmap_live
+No information available
