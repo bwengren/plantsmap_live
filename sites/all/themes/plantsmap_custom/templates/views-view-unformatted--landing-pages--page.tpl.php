@@ -7,13 +7,13 @@
     <ul id="tiles">
       <li>
         <div class="promo-box" style="padding-bottom:0px">
-          <h1  class="white">Explore</h1>
-          <h5 class="white">Browse Plants, Collections, and Gardens </h5>
+          <h3 class="white">Browse Plants, Collections, and Gardens </h3>
           <div>
-            <a class="button expand tiny" href="/explore/gardens">Explore Gardens</a>
-            <a class="button expand tiny" href="/explore/collections">Explore Collections</a>
-            <a class="button expand tiny" href="/explore/plants">Explore Plants</a>
-            <a class="button expand tiny" href="/explore">Explore All</a>
+            <a class="button expand small success" href="/explore/gardens">Explore Gardens</a>
+            <a class="button expand small success" href="/explore/collections">Explore Collections</a>
+            <a class="button expand small success" href="/explore/plants">Explore Plants</a>
+            <a class="button expand small success" href="/explore/organizations">Explore Organizations</a>
+            <a class="button expand small success" href="/explore">Explore All</a>
           </div>
         </div>
       </li>

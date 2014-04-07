@@ -279,7 +279,7 @@ function googleanalytics_page_alter(&$page) {
       $library_cache_url = 'http://' . $library_tracker_url;
     }
     else {
-      $library_tracker_url = '.google-analytics.com/ga.js';
+      $library_tracker_url = '.stats.g.doubleclick.net/dc.js';
       $library_cache_url = 'http://www' . $library_tracker_url;
     }
 
@@ -403,7 +403,7 @@ function googleanalytics_cron() {
       _googleanalytics_cache('http://stats.g.doubleclick.net/dc.js', TRUE);
     }
     else {
-      _googleanalytics_cache('http://www.google-analytics.com/ga.js', TRUE);
+      _googleanalytics_cache('http://stats.g.doubleclick.net/dc.js', TRUE);
     }
     variable_set('googleanalytics_last_cache', REQUEST_TIME);
   }

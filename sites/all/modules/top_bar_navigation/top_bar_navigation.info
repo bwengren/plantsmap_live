@@ -1,0 +1,11 @@
+name = Top Bar navigation
+description = Top bar navigation
+core = 7.x
+package = Features
+version = 7.x-1.0
+project = top_bar_navigation
+dependencies[] = features
+dependencies[] = menu
+features[features_api][] = api:2
+features[menu_custom][] = main-menu
+features[menu_custom][] = user-menu

@@ -1,0 +1,115 @@
+
+$body-bg: #FFF;
+$body-font-color: #908C78 !default;
+$body-font-weight: normal !default;
+$body-font-style: normal !default;
+
+$small-font-size: 70%;
+
+$primary-color: #789E47;
+$success-color: #799F48;
+$brown: #28170B;
+$black: #232918;
+.black {color:$black;}
+
+$button-border-width: 0px;
+$button-border-style: solid;
+$button-font-weight: normal;
+$shiny-edge-size: 0 0 0;
+
+$table-even-row-bg: #f9f9f9;
+$table-head-bg: lighten(#908C87,30%);
+
+// $header-font-family: "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
+$header-font-weight: normal;
+$header-font-color: darken(#908C78,25%);
+$header-line-height: 1.4;
+$header-top-margin: .2em;
+$header-bottom-margin: .5em;
+$header-text-rendering: optimizeLegibility;
+
+// Header
+header {
+  background-color: #fff;
+  a {color: #fff;}
+  nav a [class^="icon-"], nav a [class*=" icon-"]{
+    color:#ABC837;
+  }
+
+}
+
+// Footer
+
+footer {
+  background-color: #DDE7CF;
+  border-top: 1px solid darken(#DDE7CF,5%);
+  padding:3em 0;
+  [class^="icon-"], [class*=" icon-"] {
+    font-size: 24px;
+  }
+  a {
+    padding:1em .25em;
+    color: $body-font-color;
+  }
+}
+
+.pitch {
+  background-color: #799F48;
+  box-shadow: 0 40px 30px -40px rgba(0, 0, 0, 0.25) inset;
+  border-top: 1px solid darken(#799F48,5%);
+  color:#fff;
+}
+
+.promo {
+  background-color: #DDE7CF;
+}
+
+.logo {max-height: 200px;}
+
+.not-logged-in .top-bar {
+  // display:none;
+}
+
+// Base
+//
+// Init file contains required imports. Here's where we include normalize,
+// foundation and also compass.
+@import "base/init";
+// Import our mixins early so they can be used by other partials.
+@import "base/mixins";
+//
+// Common file is where you place common utility classes to extend or
+// parametrics. Optional file.
+@import "base/common";
+//
+// Fix for some Drupal CSS quirks (Drupalisms).
+@import "base/drupal";
+//
+// Styling for elements.
+@import "base/elements";
+//
+
+// Layout
+//
+// Each section of the document has it's own partial seperated out to improve
+// developer experience. Additionally, grids can be declared in layouts as well.
+@import "layout/header";
+@import "layout/main";
+@import "layout/aside";
+@import "layout/triptych";
+@import "layout/footer";
+
+// Components
+@import "components/buttons";
+// @import "components/type";
+// @import "components/forms";
+// @import "components/foundation-icons";
+
+// Themes
+// @import "theme/button-light";
+
+// IE8 Grid Support
+@import "ie";
+
+
+// CUSTOMIZE ME

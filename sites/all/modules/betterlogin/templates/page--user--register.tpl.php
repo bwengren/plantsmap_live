@@ -6,7 +6,7 @@
   </div>
 
   <div id="middle_part">
-    <h2 class="title"><?php print $title; ?></h2>
+    <h4 class="title"><?php print $title; ?></h4>
 
     <?php print $messages; ?>
     
@@ -15,15 +15,15 @@
 
   <div id="bottom_part">
     <div class="login_link">
-      <?php print l(t('Login'), 'user/login'); ?>
+      <a href="/user/Login" class="button expand">Sign in</a>
     </div>
 
     <div class="password_link">
-      <?php print l(t('Forgot your password?'), 'user/password'); ?>
+      <a href="/user/password" class="button expand">Forgot your password?</a>
     </div>
 
     <div class="back_link">
-      <a href="<?php print url('<front>'); ?>">&larr; Back <?php print $site_name; ?></a>
+      <a href="<?php print url('<front>'); ?>">&larr; Return to <?php print $site_name; ?></a>
     </div>
   </div>
 </div>

@@ -7,7 +7,7 @@
       <li>
         <div class="panel">
           <div class="promo-box">
-          <h4>
+          <h4 class="text-center">
             <span class="white"><?php print $view->get_title() ?></span>
           </h4>
           </div>

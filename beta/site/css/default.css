@@ -1,0 +1,35 @@
+@import url(http://fonts.googleapis.com/css?family=Muli|Raleway:400,500);
+
+/*section, article {
+  background: url(../img/HiRes.jpg) no-repeat;
+  background-size: cover;
+}*/
+
+* {font-family: 'Muli', sans-serif;}
+
+html, body {
+  font-family: 'Muli', sans-serif;
+  font-size: 16px;
+}
+
+h1, h2, h3, h4, h5, h6,
+h1 a, h2 a, h3 a, h4 a, h5 a, h6 a,
+table caption {
+  font-family: 'Raleway', sans-serif;
+  font-weight: 500;
+  letter-spacing: -.02em;
+}
+
+.xlarge {font-size: 3.55rem;}
+
+/* Spacing */
+.spaced {padding:2em 0;}
+
+
+
+img.blur {
+  filter: blur(30px); -webkit-filter: blur(30px); -moz-filter: blur(30px);
+  -o-filter: blur(30px); -ms-filter: blur(30px);
+  filter: url(../svg/blur.svg#blur);
+}
+
